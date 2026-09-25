@@ -1,47 +1,223 @@
-/* Removes default browser spacing */
+/* -------------------- */
+/* GENERAL              */
+/* -------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
-    background-color: #111111;
+    background-color: #0d0d0d;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-/* TOP BAR */
+/* -------------------- */
+/* TOP BAR              */
+/* -------------------- */
 
 .top-box {
+    height: 90px;
+
     display: flex;
     align-items: center;
 
-    height: 80px;
-    padding: 0 40px;
+    padding: 0 6%;
 
-    background-color: #181818;
-    border-bottom: 1px solid #303030;
+    background-color: #111111;
+
+    border-bottom: 1px solid #292929;
 }
 
 
-/* LOGO */
+/* Logo */
 
 .top-box img {
-    width: 58px;
-    height: 58px;
+    width: 60px;
+    height: 60px;
 
     object-fit: cover;
-    border-radius: 50%;
+
+    border-radius: 12px;
 
     margin-right: 18px;
 }
 
 
-/* COMPANY NAME */
+/* Nikfox */
 
 .top-box h1 {
     margin: 0;
 
-    color: #ffffff;
-
-    font-size: 28px;
+    font-size: 27px;
     font-weight: 700;
 
+    letter-spacing: 1px;
+}
+
+
+/* Orange part of Nikfox */
+
+.top-box h1::first-letter {
+    color: #ff7a00;
+}
+
+
+/* -------------------- */
+/* HERO                 */
+/* -------------------- */
+
+.hero {
+    min-height: calc(100vh - 90px);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 60px 25px;
+}
+
+
+/* Small text */
+
+.hero-label {
+    margin: 0 0 25px;
+
+    color: #ff7a00;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    letter-spacing: 4px;
+}
+
+
+/* COUNTDOWN */
+
+.hero h2 {
+    margin: 0;
+
+    font-size: clamp(55px, 10vw, 120px);
+
+    line-height: 1;
+
+    letter-spacing: 8px;
+
+    font-weight: 800;
+}
+
+
+/* Orange line */
+
+.orange-line {
+    width: 70px;
+    height: 4px;
+
+    margin: 30px 0;
+
+    background-color: #ff7a00;
+
+    border-radius: 10px;
+}
+
+
+/* Subtitle */
+
+.hero-subtitle {
+    margin: 0;
+
+    color: #e4e4e4;
+
+    font-size: 20px;
+
     letter-spacing: 2px;
+}
+
+
+/* Description */
+
+.hero-description {
+    max-width: 550px;
+
+    margin: 25px 0 0;
+
+    color: #888888;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+}
+
+
+/* Button */
+
+.hero-button {
+    display: inline-block;
+
+    margin-top: 35px;
+
+    padding: 14px 27px;
+
+    background-color: #ff7a00;
+
+    color: #111111;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    border-radius: 6px;
+
+    transition: 0.25s;
+}
+
+.hero-button:hover {
+    background-color: #ff922b;
+
+    transform: translateY(-2px);
+}
+
+
+/* -------------------- */
+/* MOBILE               */
+/* -------------------- */
+
+@media (max-width: 600px) {
+
+    .top-box {
+        height: 75px;
+        padding: 0 20px;
+    }
+
+    .top-box img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .top-box h1 {
+        font-size: 23px;
+    }
+
+    .hero {
+        min-height: calc(100vh - 75px);
+    }
+
+    .hero h2 {
+        letter-spacing: 3px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
 }
