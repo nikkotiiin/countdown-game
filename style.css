@@ -64,7 +64,7 @@ body {
 
 /* Orange part of Nikfox */
 
-.top-box h1::first-letter {
+.top-box h1 span {
     color: #ff7a00;
 }
 
