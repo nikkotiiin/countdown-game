@@ -455,3 +455,100 @@ body {
 .home-link h1 {
     margin: 0;
 }
+/* ========================= */
+/* FOOTER                    */
+/* ========================= */
+
+.footer {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+
+    padding: 30px 5%;
+
+    background-color: #111111;
+
+    border-top: 1px solid #292929;
+
+    color: #777777;
+}
+
+
+/* NIKFOX */
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.footer-brand img {
+    width: 35px;
+    height: 35px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.footer-brand span {
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 16px;
+}
+
+
+/* TEAM */
+
+.footer-team {
+    text-align: center;
+}
+
+.footer-team p,
+.footer-project p {
+    margin: 0 0 5px;
+
+    color: #ff7a00;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+}
+
+.footer-team span,
+.footer-project span {
+    font-size: 13px;
+}
+
+
+/* PROJECT */
+
+.footer-project {
+    text-align: right;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .footer {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .footer-project {
+        text-align: center;
+    }
+
+}
