@@ -78,6 +78,18 @@ html {
     text-align: center;
 
     padding: 60px 25px;
+
+    /* Metro horror background */
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.70)
+        ),
+        url("metroback.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
