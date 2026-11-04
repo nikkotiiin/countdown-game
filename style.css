@@ -460,14 +460,10 @@ html {
 
     padding: 30px 5%;
 
-    background: rgba(8, 12, 15, 0.65);
+    background-color: #111111;
+    border-top: 1px solid #292929;
 
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-
-    border-top: 1px solid rgba(255, 122, 0, 0.25);
-
-    color: #bbbbbb;
+    color: #777777;
 }
 
 
@@ -535,19 +531,20 @@ body {
     margin: 0;
     min-height: 100vh;
 
-    background:
+    background-image:
         linear-gradient(
-            rgba(0, 0, 0, 0.30),
-            rgba(0, 0, 0, 0.65)
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.85)
         ),
-        url("metroback.png") center / cover no-repeat fixed;
+        url("metroback.png");
 
-    background-color: #0d0d0d;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /* MOBILE */
 
