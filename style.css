@@ -535,6 +535,25 @@ body {
 .footer-project {
     text-align: right;
 }
+/* Horror metro background */
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.85)
+        ),
+        url("metro-bg.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+}
 
 
 /* MOBILE */
