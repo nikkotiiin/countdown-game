@@ -545,7 +545,7 @@ body {
             rgba(0, 0, 0, 0.65),
             rgba(0, 0, 0, 0.85)
         ),
-        url("metro-bg.png");
+        url("metroback.png");
 
     background-size: cover;
     background-position: center;
