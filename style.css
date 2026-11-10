@@ -1,3 +1,4 @@
+
 /* -------------------- */
 /* GENERAL              */
 /* -------------------- */
@@ -58,7 +59,7 @@ html {
 /* Orange part of Nikfox */
 
 .top-box h1 span {
-    color: #4A0D14;
+    color: #A52A38;
 }
 
 
@@ -98,7 +99,7 @@ html {
 .hero-label {
     margin: 0 0 25px;
 
-    color: #4A0D14;
+    color: #A52A38;
 
     font-size: 12px;
     font-weight: bold;
@@ -130,7 +131,7 @@ html {
 
     margin: 30px 0;
 
-    background-color: #4A0D14;
+    background-color: #A52A38;
 
     border-radius: 10px;
 }
@@ -173,7 +174,7 @@ html {
 
     padding: 14px 27px;
 
-    background-color: #4A0D14;
+    background-color: #A52A38;
 
     color: #111111;
 
@@ -188,7 +189,7 @@ html {
 }
 
 .hero-button:hover {
-    background-color: #681923;
+    background-color: #C43B49;
 
     transform: translateY(-2px);
 }
@@ -226,6 +227,8 @@ html {
         font-size: 16px;
     }
 }
+
+
 /* ========================= */
 /* PORTFOLIO PAGE            */
 /* ========================= */
@@ -242,7 +245,7 @@ html {
 .portfolio-label {
     margin: 0 0 15px;
 
-    color: #4A0D14;
+    color: #A52A38;
 
     font-size: 12px;
     font-weight: bold;
@@ -308,7 +311,7 @@ html {
     background-color: #171717;
 
     border: 1px solid #292929;
-    border-top: 3px solid #ff7a00;
+    border-top: 3px solid #A52A38;
 
     border-radius: 12px;
 
@@ -321,7 +324,7 @@ html {
 .portfolio-column:hover {
     transform: translateY(-5px);
 
-    border-color: #ff7a00;
+    border-color: #A52A38;
 }
 
 
@@ -410,7 +413,7 @@ html {
 .portfolio-card:hover {
     background-color: #292929;
 
-    border-color: #ff7a00;
+    border-color: #A52A38;
 
     color: white;
 
@@ -443,6 +446,8 @@ html {
     }
 
 }
+
+
 /* HOME LINK */
 
 .home-link {
@@ -460,6 +465,8 @@ html {
 .home-link h1 {
     margin: 0;
 }
+
+
 /* ========================= */
 /* FOOTER                    */
 /* ========================= */
@@ -516,7 +523,7 @@ html {
 .footer-project p {
     margin: 0 0 5px;
 
-    color: #4A0D14;
+    color: #A52A38;
 
     font-size: 11px;
     font-weight: bold;
@@ -537,6 +544,8 @@ html {
 .footer-project {
     text-align: right;
 }
+
+
 /* Horror metro background */
 
 body {
@@ -557,6 +566,7 @@ body {
 
     color: white;
 }
+
 
 /* MOBILE */
 
