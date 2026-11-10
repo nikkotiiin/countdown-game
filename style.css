@@ -58,7 +58,7 @@ html {
 /* Orange part of Nikfox */
 
 .top-box h1 span {
-    color: #ff7a00;
+    color: #4A0D14;
 }
 
 
@@ -98,7 +98,7 @@ html {
 .hero-label {
     margin: 0 0 25px;
 
-    color: #ff7a00;
+    color: #4A0D14;
 
     font-size: 12px;
     font-weight: bold;
@@ -130,7 +130,7 @@ html {
 
     margin: 30px 0;
 
-    background-color: #ff7a00;
+    background-color: #4A0D14;
 
     border-radius: 10px;
 }
@@ -173,7 +173,7 @@ html {
 
     padding: 14px 27px;
 
-    background-color: #ff7a00;
+    background-color: #4A0D14;
 
     color: #111111;
 
@@ -188,7 +188,7 @@ html {
 }
 
 .hero-button:hover {
-    background-color: #ff922b;
+    background-color: #681923;
 
     transform: translateY(-2px);
 }
@@ -242,7 +242,7 @@ html {
 .portfolio-label {
     margin: 0 0 15px;
 
-    color: #ff7a00;
+    color: #4A0D14;
 
     font-size: 12px;
     font-weight: bold;
@@ -516,7 +516,7 @@ html {
 .footer-project p {
     margin: 0 0 5px;
 
-    color: #ff7a00;
+    color: #4A0D14;
 
     font-size: 11px;
     font-weight: bold;
