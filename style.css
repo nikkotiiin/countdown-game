@@ -589,3 +589,116 @@ body {
     }
 
 }
+
+
+/* ========================= */
+/* GAME CONCEPT SECTION      */
+/* ========================= */
+
+.game-concept {
+    padding: 100px 25px 110px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: rgba(10, 10, 10, 0.88);
+
+    border-top: 1px solid #292929;
+}
+
+
+/* Small label */
+
+.game-concept-label {
+    margin: 0 0 20px;
+
+    color: #A52A1A;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    letter-spacing: 4px;
+}
+
+
+/* Main title */
+
+.game-concept h2 {
+    margin: 0;
+
+    color: white;
+
+    font-size: clamp(36px, 6vw, 65px);
+
+    letter-spacing: 4px;
+}
+
+
+/* Red accent line */
+
+.game-concept-line {
+    width: 70px;
+    height: 4px;
+
+    margin: 30px 0 40px;
+
+    background-color: #A52A1A;
+
+    border-radius: 10px;
+}
+
+
+/* Description */
+
+.game-concept-content {
+    max-width: 750px;
+
+    color: #cccccc;
+
+    font-size: 17px;
+
+    line-height: 1.9;
+}
+
+.game-concept-content p {
+    margin: 0 0 25px;
+}
+
+
+/* Final phrase */
+
+.game-concept-ending {
+    margin: 35px 0 0;
+
+    color: #A52A1A;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    line-height: 1.8;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .game-concept {
+        padding: 70px 20px 80px;
+    }
+
+    .game-concept-content {
+        font-size: 15px;
+    }
+
+    .game-concept-ending {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+}
