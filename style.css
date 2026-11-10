@@ -56,10 +56,10 @@ html {
 }
 
 
-/* Orange part of Nikfox */
+/* Colored part of Nikfox */
 
 .top-box h1 span {
-    color: #A52A38;
+    color: #A52A1A;
 }
 
 
@@ -99,7 +99,7 @@ html {
 .hero-label {
     margin: 0 0 25px;
 
-    color: #A52A38;
+    color: #A52A1A;
 
     font-size: 12px;
     font-weight: bold;
@@ -131,7 +131,7 @@ html {
 
     margin: 30px 0;
 
-    background-color: #A52A38;
+    background-color: #A52A1A;
 
     border-radius: 10px;
 }
@@ -174,7 +174,7 @@ html {
 
     padding: 14px 27px;
 
-    background-color: #A52A38;
+    background-color: #A52A1A;
 
     color: #111111;
 
@@ -189,7 +189,7 @@ html {
 }
 
 .hero-button:hover {
-    background-color: #C43B49;
+    background-color: #C04420;
 
     transform: translateY(-2px);
 }
@@ -245,7 +245,7 @@ html {
 .portfolio-label {
     margin: 0 0 15px;
 
-    color: #A52A38;
+    color: #A52A1A;
 
     font-size: 12px;
     font-weight: bold;
@@ -311,7 +311,7 @@ html {
     background-color: #171717;
 
     border: 1px solid #292929;
-    border-top: 3px solid #A52A38;
+    border-top: 3px solid #A52A1A;
 
     border-radius: 12px;
 
@@ -324,7 +324,7 @@ html {
 .portfolio-column:hover {
     transform: translateY(-5px);
 
-    border-color: #A52A38;
+    border-color: #A52A1A;
 }
 
 
@@ -413,7 +413,7 @@ html {
 .portfolio-card:hover {
     background-color: #292929;
 
-    border-color: #A52A38;
+    border-color: #C04420;
 
     color: white;
 
@@ -512,6 +512,12 @@ html {
     font-size: 16px;
 }
 
+/* Colored part of Nikfox in footer */
+
+.footer-brand .footer-name-accent {
+    color: #A52A1A;
+}
+
 
 /* TEAM */
 
@@ -523,7 +529,7 @@ html {
 .footer-project p {
     margin: 0 0 5px;
 
-    color: #A52A38;
+    color: #A52A1A;
 
     font-size: 11px;
     font-weight: bold;
